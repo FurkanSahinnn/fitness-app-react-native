@@ -1,0 +1,54 @@
+# Fitness App .gitignore
+
+# Environment variables
+.env
+.env.local
+.env.*
+!.env.example
+
+# Node
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Build folders
+build/
+dist/
+.output/
+
+# Dependencies
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Debug
+.DS_Store
+*.log
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IDE - JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+*.iws
+*.idea
+*.project
+*.classpath
+*.settings/
+
+# Temp files
+.tmp/
+temp/
+
+# System files
+Thumbs.db 
