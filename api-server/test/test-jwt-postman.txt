@@ -1,0 +1,22 @@
+// Yeni Kullanıcı Kaydı:
+POST http://localhost:3000/api/register
+Content-Type: application/json
+
+{
+  "name": "Test Kullanıcı", 
+  "email": "test@example.com", 
+  "password": "Abcd1234"
+}
+
+// Kullanıcı Girişi:
+POST http://localhost:3000/api/login
+Content-Type: application/json
+
+{
+  "email": "test@example.com", 
+  "password": "Abcd1234"
+}
+
+// Korumalı Rotaları Kullanma:
+GET http://localhost:3000/api/user
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJPbmxpbmUgSldUIEJ1aWxkZXIiLCJpYXQiOjE3NDM4NjI0MDgsImV4cCI6MTc3NTM5ODQwOCwiYXVkIjoid3d3LmV4YW1wbGUuY29tIiwic3ViIjoianJvY2tldEBleGFtcGxlLmNvbSIsIkdpdmVuTmFtZSI6IkpvaG5ueSIsIlN1cm5hbWUiOiJSb2NrZXQiLCJFbWFpbCI6Impyb2NrZXRAZXhhbXBsZS5jb20iLCJSb2xlIjpbIk1hbmFnZXIiLCJQcm9qZWN0IEFkbWluaXN0cmF0b3IiXX0.9L3XZnpj9q3AR54GnjcckDDEtVOFx0DX_gfqlFw8zrA

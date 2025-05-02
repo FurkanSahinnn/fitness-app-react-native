@@ -1,0 +1,9 @@
+npm run dev --> back
+npm start --> front
+
+Login:
+test123@example.com
+Abcd1234
+
+test1234@example.com
+Abcd1234

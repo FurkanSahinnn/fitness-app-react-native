@@ -10,6 +10,10 @@ const handleResponse = (res, status, message, data = null) => {
 export const getAllUsers = async (req, res, next) => {
     try {
         const users = await getAllUsersService();
+        if (!users) {
+            handleResponse(res, 404, "Users not found");
+            return;
+        }
         handleResponse(res, 200, "Users fetched successfully", users);
     } catch (error) {
         next(error);
@@ -34,6 +38,10 @@ export const createUser = async (req, res, next) => {
     try {
         const { name, email, password } = req.body;
         const user = await createUserService(name, email, password);
+        if (!user) {
+            handleResponse(res, 400, "User creation failed");
+            return;
+        }
         handleResponse(res, 201, "User created successfully", user);
     } catch (error) {
         next(error);
