@@ -1,0 +1,542 @@
+[
+    {
+        "name": "Kreatin",
+        "category": "Amino Asit Türevi",
+        "primary_effects": [
+            "Kas gücü ve patlayıcı kuvvette artış",
+            "Yüksek yoğunluklu egzersiz performansında iyileşme",
+            "Kas kütlesinde artışa destek"
+        ],
+        "fitness_use": "Kreatin, kısa süreli ve yüksek yoğunluklu egzersizlerde (örneğin ağırlık kaldırma, sprint) ATP yenilenmesini hızlandırarak performansı artırır. Kas gücü, hacim ve dayanıklılık üzerinde en çok çalışılmış ve en etkili bulunan supplementlerden biridir.",
+        "health_use": "Kreatin sadece spor performansı için değil, aynı zamanda beyin sağlığı, bilişsel işlevlerde iyileşme (özellikle uyku eksikliği durumunda) ve nöromüsküler hastalıkların (örneğin Parkinson, kas distrofisi) destekleyici tedavisinde potansiyel faydalar sunar.",
+        "scientific_support": "500'den fazla bilimsel çalışma kreatinin performans artırıcı etkilerini doğrulamıştır. Meta-analizler, direnç antrenmanı yapan bireylerde kas gücü ve hacmi üzerinde belirgin gelişmeler gösterir. Uluslararası spor bilim kuruluşları tarafından güvenli ve etkili olarak kabul edilir.",
+        "common_dosage": "Yaygın kullanım şekli: 5-7 gün boyunca günlük 20g (4x5g) yükleme, ardından günlük 3-5g idame dozu. Yükleme opsiyoneldir ancak kaslarda daha hızlı doygunluk sağlar.",
+        "risks": "Genellikle iyi tolere edilir. En yaygın yan etki geçici kilo artışı (su tutulumundan kaynaklıdır). Sağlıklı bireylerde böbrek hasarına dair kanıt yoktur, ancak böbrek sorunu olanlar doktor onayı almalıdır.",
+        "source_links": [
+            "https://examine.com/supplements/creatine/",
+            "https://pubmed.ncbi.nlm.nih.gov/12701815/",
+            "https://jissn.biomedcentral.com/articles/10.1186/1550-2783-4-6"
+        ],
+        "image_url": "https://raw.githubusercontent.com/FurkanSahinnn/supplement-dataset-turkish/refs/heads/main/image/Kreatin.png"
+    },
+    {
+        "name": "Beta-Alanin",
+        "category": "Amino Asit",
+        "primary_effects": [
+            "Kısa süreli yoğun egzersizlerde dayanıklılığı artırır",
+            "Kas içi pH'ı tamponlayarak yorgunluğu geciktirir",
+            "Hacim ve yoğunluk temelli antrenmanlarda performansı iyileştirir"
+        ],
+        "fitness_use": "Beta-alanin, özellikle 60 saniye ile 4 dakika süren egzersizlerde (örneğin HIIT, CrossFit, yüksek tekrar vücut geliştirme setleri) performans artışı sağlar. Karnozin sentezini artırarak kas içi asidik ortamı tamponlar ve kas yorgunluğunu geciktirir.",
+        "health_use": "Beta-alanin esas olarak spor performansına odaklı kullanılır. Ancak yaşlı bireylerde kas fonksiyonu ve fiziksel kapasiteyi korumaya yönelik potansiyel etkileri üzerine de araştırmalar yapılmaktadır.",
+        "scientific_support": "Birçok randomize kontrollü çalışma, beta-alaninin anaerobik egzersiz performansını artırdığını göstermektedir. Journal of the International Society of Sports Nutrition (JISSN), beta-alanini etkili bir performans artırıcı olarak tanımlamıştır.",
+        "common_dosage": "Günlük önerilen doz 2-5 gramdır. Doz bölünerek alınmalıdır çünkü yüksek miktarda hızlı alımda 'parestezi' (deride karıncalanma hissi) yapabilir.",
+        "risks": "Yan etkiler nadirdir. En sık görüleni geçici cilt karıncalanmasıdır. Bu etki zararsızdır ancak bazı kullanıcılar için rahatsız edici olabilir. Bu durum doz bölünerek azaltılabilir.",
+        "source_links": [
+            "https://examine.com/supplements/beta-alanine/",
+            "https://jissn.biomedcentral.com/articles/10.1186/1550-2783-12-s1-p15",
+            "https://pubmed.ncbi.nlm.nih.gov/17136505/"
+        ],
+        "image_url": "https://raw.githubusercontent.com/FurkanSahinnn/supplement-dataset-turkish/refs/heads/main/image/Beta-Alanin.png"
+    },
+    {
+        "name": "Whey Protein",
+        "category": "Protein Takviyesi",
+        "primary_effects": [
+            "Kas protein sentezini artırır",
+            "Antrenman sonrası toparlanmayı hızlandırır",
+            "Kas kütlesi kazanımını destekler"
+        ],
+        "fitness_use": "Whey protein, hızlı sindirilen bir protein kaynağıdır ve özellikle antrenman sonrası kullanıldığında kas protein sentezini artırarak kas gelişimini destekler. Leucine gibi dallı zincirli amino asitler açısından zengindir. Vücut geliştirme ve dayanıklılık sporlarında yaygın olarak kullanılır.",
+        "health_use": "Whey proteinin genel sağlık üzerindeki etkileri arasında tokluk hissinin artması, kilo kontrolü, kan şekeri regülasyonu ve bağışıklık sistemi desteği yer alır. Bazı çalışmalar kolesterolü düşürme ve antioksidan aktiviteyi artırma yönünde etkiler bildirmiştir.",
+        "scientific_support": "Whey protein üzerine yapılan çok sayıda çalışmada, direnç antrenmanı ile birlikte alındığında kas gelişimi üzerinde anlamlı etkiler gösterilmiştir. Ayrıca yaşlı bireylerde sarkopeniyi (kas kaybı) önlemede etkili olabileceği gözlemlenmiştir.",
+        "common_dosage": "Genellikle 20-40 gram dozlar halinde kullanılır. Antrenman sonrası tüketim yaygındır. Kilo, hedef ve protein ihtiyacına göre günlük 1-2 servis alınabilir.",
+        "risks": "Laktik intoleransı olan bireylerde sindirim rahatsızlıkları yapabilir. Aşırı kullanım, protein fazlalığına bağlı olarak böbrek yükünü artırabilir, ancak sağlıklı bireylerde bu risk düşüktür.",
+        "source_links": [
+            "https://examine.com/supplements/whey-protein/",
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3905294/",
+            "https://jissn.biomedcentral.com/articles/10.1186/s12970-017-0184-9"
+        ],
+        "image_url": "https://raw.githubusercontent.com/FurkanSahinnn/supplement-dataset-turkish/refs/heads/main/image/Whey Protein.png"
+    },
+    {
+        "name": "BCAA",
+        "category": "Amino Asit Takviyesi",
+        "primary_effects": [
+            "Kas yıkımını azaltabilir",
+            "Egzersiz sırasında kas yorgunluğunu geciktirebilir",
+            "Antrenman sonrası toparlanmaya destek olabilir"
+        ],
+        "fitness_use": "BCAA (Leucine, Isoleucine ve Valine), kas protein sentezinde rol alan üç temel amino asittir. Egzersiz sırasında enerji kaynağı olarak kullanılabilirler ve özellikle aç karnına antrenman yapan sporcular tarafından tercih edilir. Ayrıca toparlanmayı hızlandırmak ve kas ağrılarını azaltmak amacıyla kullanılır.",
+        "health_use": "Bazı veriler, BCAA’ların karaciğer hastalıklarında (özellikle sirozda) kas kaybını önlemede yardımcı olabileceğini göstermektedir. Ancak genel sağlık amaçlı kullanımı sınırlı ve daha az belirgindir.",
+        "scientific_support": "BCAA takviyeleri üzerine yapılan çalışmalar karışıktır. Bazı araştırmalar kas yıkımını azalttığını ve toparlanmayı hızlandırdığını gösterse de, yeterli protein alan bireylerde ek faydasının sınırlı olduğu da belirtilmiştir. Özellikle leucine'in kas protein sentezinde kilit rol oynadığı bilinmektedir.",
+        "common_dosage": "Antrenman öncesi veya sonrası 5-10 gram doz yaygındır. Genellikle 2:1:1 oranında (leucine:isoleucine:valine) formülasyonlar kullanılır.",
+        "risks": "Genel olarak güvenlidir. Ancak çok yüksek dozlar sindirim sorunları yaratabilir. Uzun vadeli yüksek doz kullanımının potansiyel etkileri net değildir. Düşük protein alımına sahip bireylerde daha anlamlıdır.",
+        "source_links": [
+            "https://examine.com/supplements/branched-chain-amino-acids/",
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5568273/",
+            "https://jissn.biomedcentral.com/articles/10.1186/1550-2783-9-20"
+        ],
+        "image_url": "https://raw.githubusercontent.com/FurkanSahinnn/supplement-dataset-turkish/refs/heads/main/image/BCAA.png"
+    },
+    {
+        "name": "L-Citrulline",
+        "category": "Amino Asit Takviyesi",
+        "primary_effects": [
+            "Kanın damarlar içinde daha rahat dolaşmasını sağlar (vazodilatasyon)",
+            "Egzersiz sırasında dayanıklılığı artırabilir",
+            "Kas ağrısını azaltabilir"
+        ],
+        "fitness_use": "L-Citrulline, nitrik oksit üretimini artırarak kan akışını iyileştirir ve bu sayede kaslara daha fazla oksijen ve besin taşınmasına yardımcı olur. Pre-workout (antrenman öncesi) ürünlerde sıkça bulunur. Özellikle setler arası toparlanmayı hızlandırdığı ve kas ağrısını azalttığı için tercih edilir.",
+        "health_use": "L-Citrulline, tansiyonu dengeleyici etkisi nedeniyle kalp-damar sağlığı için de potansiyel faydalar sunar. Aynı zamanda erektil disfonksiyon gibi dolaşım kaynaklı sorunlarda da destekleyici olarak araştırılmıştır.",
+        "scientific_support": "Birçok çalışma, L-Citrulline’in antrenman performansını ve dayanıklılığı artırdığını, kas ağrısını ise azalttığını göstermiştir. Özellikle ‘Citrulline Malate’ formu üzerine yapılan araştırmalar daha yaygındır ve performans artışıyla ilişkilendirilmiştir.",
+        "common_dosage": "L-Citrulline: 3-6 gram / gün. Citrulline Malate formu için 6-8 gram / gün önerilir. Genellikle antrenmandan 30-60 dakika önce alınır.",
+        "risks": "Genel olarak güvenlidir. Çok yüksek dozlarda mide bulantısı veya karın rahatsızlığı yapabilir. Kronik hastalığı olan bireyler doktora danışarak kullanmalıdır.",
+        "source_links": [
+            "https://examine.com/supplements/citrulline/",
+            "https://pubmed.ncbi.nlm.nih.gov/20386132/",
+            "https://jissn.biomedcentral.com/articles/10.1186/s12970-017-0187-6"
+        ],
+        "image_url": "https://raw.githubusercontent.com/FurkanSahinnn/supplement-dataset-turkish/refs/heads/main/image/L-Citrulline.png"
+    },
+    {
+        "name": "L-Arginin",
+        "category": "Amino Asit Takviyesi",
+        "primary_effects": [
+            "Vazodilatasyon yoluyla kan akışını artırır",
+            "Egzersiz sırasında performansı ve pump etkisini artırabilir",
+            "İyileşme sürecini destekleyebilir"
+        ],
+        "fitness_use": "L-Arginin, nitrik oksit (NO) üretimini artırarak damarların genişlemesini sağlar ve bu da antrenman sırasında daha fazla kan akışı anlamına gelir. Bu etki kaslara daha fazla oksijen ve besin taşınmasına yardımcı olur. Genellikle pre-workout ürünlerde 'pump' etkisi yaratmak amacıyla kullanılır.",
+        "health_use": "Arginin bağışıklık fonksiyonu, yara iyileşmesi, hormon üretimi ve erkeklerde erektil fonksiyon gibi çeşitli fizyolojik süreçlerde rol oynar. Damar sağlığını destekleyici etkileri nedeniyle kardiyovasküler sistem üzerinde potansiyel faydalar sunar.",
+        "scientific_support": "Arginin üzerine yapılan çalışmalar karışıktır. Bazı araştırmalar egzersiz performansı üzerinde olumlu etkiler bildirirken, özellikle tek başına oral kullanımı ile ilgili etkiler sınırlı kalabilir. Buna rağmen nitrik oksit artırıcı olarak potansiyeli bilimsel olarak tanınmaktadır.",
+        "common_dosage": "Günlük 3-6 gram önerilir. Antrenmandan 30-60 dakika önce aç karnına alınması tavsiye edilir. Yüksek dozlarda bölerek almak mide rahatsızlıklarını azaltabilir.",
+        "risks": "Bazı bireylerde mide bulantısı, ishal veya şişkinlik gibi sindirim sorunları yapabilir. Düşük tansiyonu olan bireylerde kan basıncını daha da düşürebilir. Ayrıca herpes virüsünü aktive edebileceğine dair bazı bulgular vardır.",
+        "source_links": [
+            "https://examine.com/supplements/arginine/",
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2248208/",
+            "https://jissn.biomedcentral.com/articles/10.1186/s12970-017-0187-6"
+        ],
+        "image_url": "https://raw.githubusercontent.com/FurkanSahinnn/supplement-dataset-turkish/refs/heads/main/image/L-Arginin.png"
+    },
+    {
+        "name": "Kafein",
+        "category": "Uyarıcı (Stimulant)",
+        "primary_effects": [
+            "Zihinsel uyanıklığı artırır",
+            "Fiziksel performansı ve dayanıklılığı artırır",
+            "Yorgunluk hissini azaltır"
+        ],
+        "fitness_use": "Kafein, merkezi sinir sistemini uyararak egzersiz sırasında yorgunluk algısını azaltır ve antrenman süresince dayanıklılığı artırır. Özellikle dayanıklılık sporlarında (koşu, bisiklet) ve HIIT antrenmanlarında performans artışı sağlar. Yağ yakımını da dolaylı olarak destekleyebilir.",
+        "health_use": "Düşük ve orta dozlarda tüketildiğinde bilişsel performansı artırabilir, odaklanmayı güçlendirebilir ve ruh halini iyileştirebilir. Ayrıca bazı çalışmalar, Parkinson ve Alzheimer gibi nörolojik hastalıklara karşı koruyucu etkileri olabileceğini göstermektedir.",
+        "scientific_support": "Yüzlerce çalışma kafeinin egzersiz performansı üzerindeki etkisini desteklemektedir. International Society of Sports Nutrition (ISSN) tarafından en etkili ergogenik desteklerden biri olarak tanımlanmıştır. Aerobik ve anaerobik performansı artırıcı etkileri oldukça iyi belgelenmiştir.",
+        "common_dosage": "Genellikle vücut ağırlığına göre 3-6 mg/kg doz önerilir. Ortalama bir birey için 200-400 mg kafein, antrenmandan 30-60 dakika önce alınabilir. Daha yüksek dozlarda tolerans ve bireysel yanıt dikkate alınmalıdır.",
+        "risks": "Uykusuzluk, sinirlilik, mide rahatsızlığı, kalp çarpıntısı gibi yan etkiler yapabilir. Yüksek dozlarda anksiyete ve tansiyon yükselmesi görülebilir. Kafein toleransı gelişebilir ve bağımlılık potansiyeli taşır.",
+        "source_links": [
+            "https://examine.com/supplements/caffeine/",
+            "https://jissn.biomedcentral.com/articles/10.1186/1550-2783-7-5",
+            "https://pubmed.ncbi.nlm.nih.gov/29453750/"
+        ],
+        "image_url": "https://raw.githubusercontent.com/FurkanSahinnn/supplement-dataset-turkish/refs/heads/main/image/Kafein.png"
+    },
+    {
+        "name": "Omega-3 Yağ Asitleri",
+        "category": "Esansiyel Yağ Asidi Takviyesi",
+        "primary_effects": [
+            "Enflamasyonu azaltabilir",
+            "Kalp sağlığını destekler",
+            "Kas ağrısını ve egzersiz sonrası toparlanma süresini iyileştirebilir"
+        ],
+        "fitness_use": "Omega-3 takviyeleri, egzersiz sonrası kas hasarını ve ağrıyı azaltarak toparlanmayı hızlandırabilir. Bazı araştırmalar, antrenman adaptasyonunu iyileştirebileceğini ve kas proteini sentezine olumlu katkı sağlayabileceğini göstermektedir. Özellikle dayanıklılık sporları yapan bireylerde kas katabolizmasını yavaşlatıcı etkileri olabilir.",
+        "health_use": "Omega-3’ler (EPA ve DHA), trigliseridleri düşürme, tansiyonu düzenleme, kalp ritmini stabilize etme gibi etkilerle kardiyovasküler hastalık riskini azaltabilir. Ayrıca beyin fonksiyonları, göz sağlığı ve ruh hali üzerinde olumlu etkileri vardır. Depresyon, ADHD ve Alzheimer gibi durumlarda destekleyici olarak incelenmiştir.",
+        "scientific_support": "Çok sayıda klinik çalışma, omega-3'lerin kalp sağlığı üzerindeki faydalarını ve inflamasyon azaltıcı etkilerini desteklemektedir. Egzersiz performansı üzerine etkileri daha yeni araştırmalara konu olmakla birlikte toparlanma süreci ve kas sağlığı açısından potansiyel faydaları artan biçimde belgelenmektedir.",
+        "common_dosage": "Günlük 250-500 mg birleşik EPA ve DHA, genel sağlık için önerilen başlangıç dozudur. Terapötik amaçlar için (örneğin yüksek trigliserid) 1-3 gram arası kullanılabilir. Tok karnına alınması emilimi artırır.",
+        "risks": "Yüksek dozda alımda mide rahatsızlığı, balık tadı geğirme ve nadiren kanama riski görülebilir. Kan sulandırıcı ilaç kullanan bireylerin dikkatli olması gerekir.",
+        "source_links": [
+            "https://examine.com/supplements/fish-oil/",
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4404917/",
+            "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats/omega-3-fatty-acids"
+        ],
+        "image_url": "https://raw.githubusercontent.com/FurkanSahinnn/supplement-dataset-turkish/refs/heads/main/image/Omega-3 Yağ Asitleri.png"
+    },
+    {
+        "name": "Magnezyum",
+        "category": "Mineral Takviyesi",
+        "primary_effects": [
+            "Kas gevşemesine ve kas kramplarının azalmasına yardımcı olur",
+            "Sinir sistemi fonksiyonlarını destekler",
+            "Uyku kalitesini ve toparlanmayı iyileştirebilir"
+        ],
+        "fitness_use": "Magnezyum, kas kasılması ve gevşemesi süreçlerinde temel rol oynar. Eksikliğinde kas krampları, yorgunluk ve kas spazmları görülebilir. Antrenman sonrası toparlanmayı desteklemek ve uyku kalitesini artırmak amacıyla özellikle akşam saatlerinde kullanılır. Yoğun terleme sonucu magnezyum kaybı olan sporcularda daha kritik hale gelir.",
+        "health_use": "Magnezyum; sinir sistemi sağlığı, kan şekeri regülasyonu, tansiyon kontrolü ve kemik mineral yoğunluğu açısından önemlidir. Ayrıca migren, depresyon ve anksiyete gibi rahatsızlıklarla ilişkili bazı belirtilerin hafifletilmesinde potansiyel destek sağlar.",
+        "scientific_support": "Gözlemsel ve deneysel çalışmalar, yeterli magnezyum alımının kas fonksiyonları, sinir iletimi ve kardiyovasküler sağlık açısından koruyucu olduğunu göstermektedir. Egzersiz yapan bireylerde düşük magnezyum düzeylerinin performans kaybına neden olabileceği vurgulanmıştır.",
+        "common_dosage": "Günlük 200-400 mg arasında değişir. Magnezyum bisglisinat, sitrat ve malat gibi formlar biyoyararlanımı yüksek olan seçeneklerdir. Uyku destekleyici etkisi için gece alınması önerilir.",
+        "risks": "Aşırı dozda alındığında ishal, mide rahatsızlığı ve düşük tansiyon gibi etkiler görülebilir. Böbrek yetmezliği olan bireylerde dikkatli kullanılmalıdır. Magnezyum oksit formu daha ucuz ancak emilimi düşüktür.",
+        "source_links": [
+            "https://examine.com/supplements/magnesium/",
+            "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8653647/"
+        ],
+        "image_url": "https://raw.githubusercontent.com/FurkanSahinnn/supplement-dataset-turkish/refs/heads/main/image/Magnezyum.png"
+    },
+    {
+        "name": "Çinko",
+        "category": "Mineral Takviyesi",
+        "primary_effects": [
+            "Bağışıklık sistemini güçlendirir",
+            "Hormon üretimini (özellikle testosteron) destekler",
+            "Kas onarımı ve toparlanmada rol oynar"
+        ],
+        "fitness_use": "Çinko, kas protein sentezinde ve hücre yenilenmesinde rol oynar. Ağır egzersiz sonrası bağışıklık sisteminde baskılanma riski arttığı için, çinko takviyesi toparlanma sürecine katkı sağlayabilir. Ayrıca çinko eksikliği testosteron düzeylerini düşürebileceğinden, erkek sporcular için önemlidir.",
+        "health_use": "Bağışıklık fonksiyonları, yara iyileşmesi, cilt sağlığı, tat ve koku duyuları gibi pek çok fizyolojik süreçte görev alır. Soğuk algınlığı süresini kısaltabileceği ve enfeksiyonlara karşı direnci artırabileceği gösterilmiştir.",
+        "scientific_support": "Çinko üzerine yapılan araştırmalar, eksikliğinde bağışıklık zayıflığı, iştah kaybı ve hormonal dengesizliklerin ortaya çıkabileceğini gösteriyor. Direnç antrenmanı yapan bireylerde eksiklik durumunda testosteron düşüşü gözlemlenmiştir. Ancak yeterli düzeyde olan bireylerde takviyenin etkisi sınırlı olabilir.",
+        "common_dosage": "Günlük 15-30 mg arası önerilir. Çinko pikolinat, sitrat veya bisglisinat formları biyoyararlanımı yüksek formlardır. Bakır emilimini engelleyebileceğinden, uzun süreli yüksek doz kullanımlarda dikkatli olunmalıdır.",
+        "risks": "Aşırı dozda bulantı, kusma, baş dönmesi ve bağışıklık fonksiyonlarında baskılanma görülebilir. Uzun süreli yüksek doz kullanımı bakır eksikliğine yol açabilir. Boş mideye alındığında mide rahatsızlığı yapabilir.",
+        "source_links": [
+            "https://examine.com/supplements/zinc/",
+            "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2277319/"
+        ],
+        "image_url": "https://raw.githubusercontent.com/FurkanSahinnn/supplement-dataset-turkish/refs/heads/main/image/Çinko.png"
+    },
+    {
+        "name": "Ashwagandha",
+        "category": "Adaptogen Bitkisel Takviye",
+        "primary_effects": [
+            "Stres ve kortizol seviyelerini azaltabilir",
+            "Testosteron ve kas gücü üzerinde olumlu etkiler gösterebilir",
+            "Anksiyete ve uyku kalitesini iyileştirebilir"
+        ],
+        "fitness_use": "Ashwagandha, kronik stresin azaltılmasına yardımcı olarak toparlanmayı kolaylaştırabilir ve antrenman performansına dolaylı katkı sağlayabilir. Bazı araştırmalar, düzenli kullanımda kas gücü, VO₂ max (oksijen kullanım kapasitesi) ve dayanıklılıkta artış sağladığını göstermektedir. Ayrıca testosteron düzeylerinde hafif artışlara yol açabileceği de rapor edilmiştir.",
+        "health_use": "Geleneksel Ayurvedik tıpta kullanılan bu bitki, modern çalışmalarda da stres, anksiyete, depresyon, uyku bozuklukları, tiroit fonksiyonu ve beyin sağlığı gibi birçok alanda olumlu etkiler göstermiştir. Özellikle kortizol düşürücü etkisiyle öne çıkar.",
+        "scientific_support": "Çeşitli randomize kontrollü çalışmalarda, ashwagandha'nın stres hormonu kortizolü azalttığı ve anksiyete skorlarını düşürdüğü gösterilmiştir. Ayrıca, fiziksel performansa ve kas kazanımına etkisi üzerine yapılan bazı küçük ölçekli araştırmalarda olumlu sonuçlar elde edilmiştir.",
+        "common_dosage": "Günlük 300-600 mg aralığında standartlaştırılmış KSM-66 veya Sensoril ekstraktları önerilir. Sabah ya da akşam alınabilir. Sürekli kullanımda etkisi 4-8 hafta içinde belirginleşir.",
+        "risks": "Genel olarak güvenli kabul edilir. Ancak bazı bireylerde mide rahatsızlığı, baş dönmesi, uykululuk hali yapabilir. Otoimmün hastalığı olan bireyler veya tiroit bozukluğu olanlar kullanmadan önce doktora danışmalıdır.",
+        "source_links": [
+            "https://examine.com/supplements/ashwagandha/",
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3573577/",
+            "https://jissn.biomedcentral.com/articles/10.1186/s12970-015-0104-9"
+        ],
+        "image_url": "https://raw.githubusercontent.com/FurkanSahinnn/supplement-dataset-turkish/refs/heads/main/image/Ashwagandha.png"
+    },
+    {
+        "name": "Rhodiola Rosea",
+        "category": "Adaptogen Bitkisel Takviye",
+        "primary_effects": [
+            "Fiziksel ve zihinsel yorgunluğu azaltabilir",
+            "Stresle başa çıkmayı kolaylaştırabilir",
+            "Egzersiz dayanıklılığını artırabilir"
+        ],
+        "fitness_use": "Rhodiola Rosea, özellikle yoğun fiziksel veya zihinsel stres altında performansın korunmasına yardımcı olabilir. Dayanıklılık sporlarında (örneğin koşu, bisiklet) yorgunluk eşiğini yukarı çektiği ve egzersiz sonrası toparlanmayı desteklediği bazı araştırmalarca öne sürülmüştür. Ayrıca pre-workout takviyesi olarak kullanıldığında enerji hissi verebilir.",
+        "health_use": "Stres kaynaklı zihinsel yorgunluk, tükenmişlik hissi, depresyon ve anksiyete gibi durumlarda destekleyici olarak kullanılır. Hafıza, konsantrasyon ve dikkat üzerinde olumlu etkiler bildirilmiştir. Geleneksel olarak Sibirya bölgesinde dayanıklılığı artırmak için kullanılmıştır.",
+        "scientific_support": "Birçok Avrupa menşeli çalışmada, Rhodiola’nın hem zihinsel hem fiziksel yorgunluk üzerinde olumlu etkileri rapor edilmiştir. Ancak bazı sonuçlar tutarsızdır ve etkilerin kişiden kişiye değişebileceği belirtilmektedir. Kısa vadede hızlı etki gösterebilen adaptogenlerden biridir.",
+        "common_dosage": "Günlük 200-600 mg standartize ekstre (rosavin ve salidrosid oranı belirtilmeli) önerilir. Sabah veya öğlen saatlerinde, aç karnına alınması tavsiye edilir. Gece alınması uykuyu etkileyebilir.",
+        "risks": "Genellikle iyi tolere edilir. Nadiren baş ağrısı, sinirlilik, huzursuzluk veya uykusuzluk gibi yan etkiler görülebilir. Antidepresan ilaçlarla birlikte kullanımı öncesinde mutlaka doktora danışılmalıdır.",
+        "source_links": [
+            "https://examine.com/supplements/rhodiola-rosea/",
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6979304/",
+            "https://pubmed.ncbi.nlm.nih.gov/17990195/"
+        ],
+        "image_url": "https://raw.githubusercontent.com/FurkanSahinnn/supplement-dataset-turkish/refs/heads/main/image/Rhodiola Rosea.png"
+    },
+    {
+        "name": "L-Theanine",
+        "category": "Amino Asit Türevi / Nootropik",
+        "primary_effects": [
+            "Zihinsel gevşeme sağlar (sakinleştirici ama uyku yapmayan etki)",
+            "Odaklanmayı ve bilişsel performansı artırabilir",
+            "Stres ve anksiyeteyi azaltabilir"
+        ],
+        "fitness_use": "L-Theanine doğrudan fiziksel performansı artırmaz ancak kafein ile birlikte kullanıldığında sinir sistemini dengeleyici etkisi sayesinde zihinsel dengeyi korur. Pre-workout ürünlerde kafeinle birlikte kullanılarak odaklanmayı artırmak, kafeinin yarattığı aşırı uyarılmayı dengelemek amacıyla tercih edilir.",
+        "health_use": "Theanine özellikle anksiyete, dikkat eksikliği, uyku kalitesi gibi nörolojik ve psikolojik alanlarda kullanılır. Alfa beyin dalgalarını artırarak gevşemeyi desteklediği gösterilmiştir. Uyku öncesi kullanıldığında daha derin ve kaliteli bir uyku sağlayabilir.",
+        "scientific_support": "Klinik çalışmalarda, 200-400 mg aralığında L-theanine dozlarının stres, anksiyete ve bilişsel işlevler üzerinde olumlu etkiler sağladığı rapor edilmiştir. Kafeinle kombinasyonu dikkat, tepki süresi ve hafızada sinerjik etki yaratabilir.",
+        "common_dosage": "Yaygın doz 100-400 mg/gün’dür. Kafeinle birlikte kullanılıyorsa 2:1 oranı (örneğin 200 mg theanine + 100 mg kafein) tavsiye edilir. Gün içinde zihinsel denge, akşam ise gevşeme için kullanılabilir.",
+        "risks": "Genellikle güvenlidir. Nadir durumlarda baş dönmesi, mide bulantısı veya düşük tansiyon yapabilir. Aşırı dozda uyuşukluk hissi verebilir ama toksik değildir.",
+        "source_links": [
+            "https://examine.com/supplements/theanine/",
+            "https://pubmed.ncbi.nlm.nih.gov/18006208/",
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8080936/"
+        ],
+        "image_url": "https://raw.githubusercontent.com/FurkanSahinnn/supplement-dataset-turkish/refs/heads/main/image/L-Theanine.png"
+    },
+    {
+        "name": "Melatonin",
+        "category": "Hormon Takviyesi / Uyku Düzenleyici",
+        "primary_effects": [
+            "Uyku başlangıcını kolaylaştırır",
+            "Jet lag ve vardiyalı çalışma kaynaklı uyku bozukluklarını düzenleyebilir",
+            "Antioksidan etki göstererek genel sağlık üzerinde koruyucu rol oynayabilir"
+        ],
+        "fitness_use": "Melatonin doğrudan egzersiz performansını artırmaz; ancak kaliteli uyku, toparlanma süreci ve hormonal denge açısından büyük önem taşıdığından dolaylı olarak sportif başarıyı destekleyebilir. Yoğun antrenman sonrası uykuya dalmakta zorluk çeken sporcular için faydalı olabilir.",
+        "health_use": "Vücutta doğal olarak salgılanan bir hormondur ve biyolojik saatimizin (sirkadiyen ritim) düzenlenmesinde rol oynar. Uykusuzluk, jet lag, vardiyalı çalışma ve yaşa bağlı uyku bozukluklarında kullanılır. Ayrıca antioksidan özelliğiyle bağışıklık sistemi, göz sağlığı ve hücre yenilenmesi üzerinde olumlu etkileri olduğu araştırılmıştır.",
+        "scientific_support": "Birçok klinik çalışma, melatoninin uykuya dalma süresini kısalttığını ve genel uyku kalitesini iyileştirdiğini göstermektedir. Özellikle jet lag ve geç saat uyuma alışkanlıklarında etkilidir. Uyku süresinden çok uyku başlangıcı üzerinde belirgin etki gösterir.",
+        "common_dosage": "Yetişkinler için 0.5 ila 3 mg arasında dozlar genellikle yeterlidir. 30-60 dakika önce alınması tavsiye edilir. 5 mg ve üzeri dozlar daha güçlü etki gösterse de bazı bireylerde ertesi gün sersemlik yapabilir.",
+        "risks": "Kısa vadede güvenlidir. Uzun süreli yüksek doz kullanımda hormonal dengeyi etkileyebilir. Bazı bireylerde sabah sersemlik, baş ağrısı, huzursuzluk veya canlı rüyalar gibi etkiler görülebilir. Antidepresanlar ve uyku ilaçlarıyla etkileşim gösterebilir.",
+        "source_links": [
+            "https://examine.com/supplements/melatonin/",
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4273450/",
+            "https://ods.od.nih.gov/factsheets/Melatonin-HealthProfessional/"
+        ],
+        "image_url": "https://raw.githubusercontent.com/FurkanSahinnn/supplement-dataset-turkish/refs/heads/main/image/Melatonin.png"
+    },
+    {
+        "name": "Vitamin B12",
+        "category": "Vitamin Takviyesi (Suda Çözünen)",
+        "primary_effects": [
+            "Enerji üretiminde rol oynar",
+            "Sinir sistemi sağlığını korur",
+            "Kırmızı kan hücrelerinin üretimini destekler"
+        ],
+        "fitness_use": "Vitamin B12 doğrudan kas gücü veya dayanıklılığı artırmaz; ancak enerji metabolizmasındaki rolü nedeniyle özellikle vejetaryen/vegan sporcularda eksiklik durumunda performans düşüklüğü, halsizlik ve toparlanma sorunları görülebilir. Ayrıca kırmızı kan hücresi üretimi ve oksijen taşınımı için önemlidir.",
+        "health_use": "B12 vitamini DNA sentezi, sinir hücresi sağlığı, hafıza ve ruh hali üzerinde önemli etkilere sahiptir. Eksikliği, yorgunluk, sinirsel semptomlar, anemi ve bilişsel bozulmalarla ilişkilidir. Vegan bireylerde, yaşlılarda ve mide-bağırsak emilim sorunları olan kişilerde eksiklik yaygındır.",
+        "scientific_support": "B12 üzerine yapılan çalışmalar, eksiklik durumunda fiziksel ve zihinsel fonksiyonlarda belirgin düşüş olduğunu göstermektedir. Ancak takviyenin yalnızca eksiklik bulunan bireylerde fayda sağladığı belirtilmektedir. Geniş toplumda gereksiz yüksek doz alımı çoğu zaman etkisizdir.",
+        "common_dosage": "Günlük ihtiyaç 2.4 mcg civarındadır, ancak eksiklik tedavisinde 500-1000 mcg dozlarda alınabilir. Emilim sorunlarında dil altı (sublingual) veya enjeksiyon formları tercih edilir. Fazlası idrarla atıldığından toksik etki riski düşüktür.",
+        "risks": "Ağızdan alınan B12 genellikle güvenlidir. Nadir durumlarda ciltte döküntü, ishal veya baş dönmesi görülebilir. Kobalt veya siyanokobalamin alerjisi olan bireylerde dikkatli kullanılmalıdır.",
+        "source_links": [
+            "https://examine.com/supplements/vitamin-b12/",
+            "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6540892/"
+        ],
+        "image_url": "https://raw.githubusercontent.com/FurkanSahinnn/supplement-dataset-turkish/refs/heads/main/image/Vitamin B12.png"
+    },
+    {
+        "name": "Probiyotikler",
+        "category": "Mikrobiyal Takviye / Sindirim Sağlığı",
+        "primary_effects": [
+            "Bağırsak florasını dengeler",
+            "Bağışıklık sistemini güçlendirebilir",
+            "Sindirim sorunlarını hafifletebilir"
+        ],
+        "fitness_use": "Probiyotikler doğrudan kas gücü veya performans üzerinde etkili olmasa da, bağırsak sağlığını iyileştirerek besin emilimini artırabilir. Özellikle yüksek proteinli diyet uygulayan sporcularda sindirim rahatlığı sağlayabilir. Ayrıca bağışıklık sistemini destekleyerek antrenman sonrası hastalık riskini azaltabilir.",
+        "health_use": "Probiyotikler, bağırsak mikrobiyotasını düzenleyerek ishal, kabızlık, şişkinlik, irritabl bağırsak sendromu (IBS) gibi durumlarda olumlu etkiler gösterebilir. Bağışıklık sistemi fonksiyonlarını destekler ve bazı türleri ruh hali, anksiyete ve depresyon üzerinde de etkili olabilir.",
+        "scientific_support": "Probiyotiklerin sindirim sağlığı üzerindeki etkileri iyi belgelenmiştir. Lactobacillus ve Bifidobacterium türleri üzerine yapılan çalışmalar, birçok gastrointestinal rahatsızlıkta fayda sağladığını göstermektedir. Psikobiyotik etkileri (bağırsak-beyin ekseni üzerinden) üzerine araştırmalar devam etmektedir.",
+        "common_dosage": "Çoğu takviye günlük 1 ila 10 milyar CFU (colony forming units) arasında dozlar içerir. Tür ve doz, hedeflenen sağlık durumuna göre değişir. Aç ya da tok alınabilir; kapsül formda veya fermente gıdalarla alınabilir.",
+        "risks": "Genellikle güvenlidir. Nadiren geçici gaz, şişkinlik veya mide rahatsızlığı yapabilir. Bağışıklık sistemi zayıf olan bireylerde doktor gözetiminde kullanılmalıdır.",
+        "source_links": [
+            "https://examine.com/supplements/probiotics/",
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4045285/",
+            "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/"
+        ],
+        "image_url": "https://raw.githubusercontent.com/FurkanSahinnn/supplement-dataset-turkish/refs/heads/main/image/Probiyotikler.png"
+    },
+    {
+        "name": "L-Tirozin",
+        "category": "Amino Asit Takviyesi / Nootropik",
+        "primary_effects": [
+            "Bilişsel performansı stres altında koruyabilir",
+            "Dikkat, odak ve zihinsel esnekliği artırabilir",
+            "Yorgunluk ve tükenmişlik hissini azaltabilir"
+        ],
+        "fitness_use": "L-Tirozin, yoğun zihinsel stres veya uykusuzluk durumlarında antrenman performansını desteklemek amacıyla kullanılabilir. Özellikle pre-workout karışımlarında bilişsel netliği artırmak ve antrenman sırasında odaklanmayı sürdürmek amacıyla tercih edilir. Antrenman sırasında mental yorgunluğu azaltarak dayanıklılığa katkı sağlayabilir.",
+        "health_use": "Tirozin, dopamin, norepinefrin ve adrenalin gibi önemli nörotransmitterlerin öncül maddesidir. Bu nedenle dikkat eksikliği, zihinsel yorgunluk, stresli durumlar ve bilişsel işlevlerin desteklenmesi için kullanılır. Özellikle uykusuzluk, aşırı iş yükü veya sınav stresi gibi durumlarda zihinsel fonksiyonları korumada faydalıdır.",
+        "scientific_support": "Araştırmalar, L-tirozinin akut stres altında bilişsel performansı (hafıza, dikkat, tepki süresi) koruyabildiğini göstermektedir. Ancak düzenli kullanımda etkisinin devam edip etmediği tam net değildir. Özellikle askeri personel, pilotlar ve yoğun zihinsel görevlerde kullanımı üzerine çalışmalar yapılmıştır.",
+        "common_dosage": "Genellikle 500–2000 mg aralığında, aç karnına veya pre-workout olarak antrenmandan 30-60 dakika önce alınır. Günlük doz ihtiyaca ve toleransa göre bölünebilir.",
+        "risks": "Genellikle güvenlidir. Yüksek dozda baş ağrısı, mide rahatsızlığı, huzursuzluk veya anksiyete yapabilir. Tiroid hastaları veya tiroid ilacı kullananlar mutlaka doktora danışmalıdır çünkü tirozin tiroid hormonlarının öncülüdür.",
+        "source_links": [
+            "https://examine.com/supplements/tyrosine/",
+            "https://pubmed.ncbi.nlm.nih.gov/12661080/",
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5372931/"
+        ],
+        "image_url": "https://raw.githubusercontent.com/FurkanSahinnn/supplement-dataset-turkish/refs/heads/main/image/L-Tirozin.png"
+    },
+    {
+        "name": "Koenzim Q10",
+        "category": "Antioksidan / Mitokondriyal Destek",
+        "primary_effects": [
+            "Hücresel enerji üretimini destekler",
+            "Antioksidan etkisiyle hücreleri korur",
+            "Kalp sağlığına katkı sağlayabilir"
+        ],
+        "fitness_use": "Koenzim Q10, mitokondrilerde enerji üretiminde (ATP sentezi) görev alır. Bu yönüyle dayanıklılık sporcuları tarafından enerji metabolizmasını desteklemek ve egzersiz sırasında performans düşüşünü önlemek amacıyla kullanılır. Ayrıca kaslarda serbest radikallerin neden olduğu hasarı azaltarak toparlanmayı destekleyebilir.",
+        "health_use": "Q10 seviyeleri yaşla birlikte azalır. Kalp yetmezliği, hipertansiyon ve migren gibi durumlarda takviye edilerek destekleyici faydalar sağladığı gözlemlenmiştir. Hücre yenilenmesi, beyin sağlığı ve bağışıklık sistemi üzerinde de potansiyel olumlu etkileri vardır.",
+        "scientific_support": "Koenzim Q10’un kalp hastalıkları ve migren gibi durumlarda fayda sağladığına dair çok sayıda çalışma mevcuttur. Egzersiz performansı üzerindeki etkileri sınırlı ve bireysel farklılığa açıktır. Yine de yaşla birlikte azalan Q10 seviyelerini dengelemek için kullanımına yönelik bilimsel gerekçeler bulunmaktadır.",
+        "common_dosage": "Günlük 100-300 mg önerilir. Emilimi için yağlı öğünlerle birlikte alınması tavsiye edilir. Ubiquinol formu, ubiquinone formuna göre daha yüksek biyoyararlanıma sahiptir.",
+        "risks": "Genellikle güvenlidir. Bazı bireylerde mide bulantısı, ishal, iştah kaybı veya baş ağrısı görülebilir. Kan sulandırıcı ilaçlarla (örneğin warfarin) etkileşim gösterebilir, bu nedenle ilaç kullananlar doktor onayıyla kullanmalıdır.",
+        "source_links": [
+            "https://examine.com/supplements/coenzyme-q10/",
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5452227/",
+            "https://ods.od.nih.gov/factsheets/CoenzymeQ10-HealthProfessional/"
+        ],
+        "image_url": "https://raw.githubusercontent.com/FurkanSahinnn/supplement-dataset-turkish/refs/heads/main/image/Koenzim Q10.png"
+    },
+    {
+        "name": "Zerdeçal (Kurkumin)",
+        "category": "Bitkisel Takviye / Anti-inflamatuar",
+        "primary_effects": [
+            "İltihaplanmayı azaltabilir",
+            "Eklem ağrılarını hafifletebilir",
+            "Antioksidan koruma sağlar"
+        ],
+        "fitness_use": "Zerdeçalın aktif bileşeni kurkumin, egzersize bağlı kas ağrılarını ve inflamasyonu azaltmaya yardımcı olabilir. Antrenman sonrası toparlanma sürecini hızlandırabileceği ve oksidatif stresi azaltabileceği için özellikle yoğun antrenman yapan sporcularda faydalı olabilir. Ayrıca eklem desteği sağlar.",
+        "health_use": "Kurkumin, eklem sağlığı, sindirim sistemi, kalp sağlığı, beyin fonksiyonları ve hatta depresyon gibi pek çok alanda fayda sağladığı düşünülen güçlü bir doğal anti-inflamatuardır. Kronik inflamasyonla ilişkili hastalıklarda (artrit, Alzheimer, metabolik sendrom) potansiyel destekleyici rol oynar.",
+        "scientific_support": "Çok sayıda çalışma kurkuminin inflamasyon belirteçlerini azalttığını göstermiştir. Bununla birlikte biyoyararlanımı düşüktür; bu nedenle biyoyararlanımı artırılmış formlar (örneğin piperin ile birlikte, liposomal formda) tercih edilmelidir. Güvenilirliği yüksek, etkinliği bireysel farklılıklara açık bir bileşiktir.",
+        "common_dosage": "Günlük 500–1000 mg standartlaştırılmış kurkumin özü önerilir. Emilimi artırmak için karabiber ekstresi (piperin) veya yağ ile birlikte alınması tavsiye edilir.",
+        "risks": "Genellikle iyi tolere edilir. Yüksek dozlarda mide rahatsızlığı, ishal veya baş dönmesi yapabilir. Safra yolu tıkanıklığı veya safra taşı olan bireyler dikkatli kullanmalıdır.",
+        "source_links": [
+            "https://examine.com/supplements/curcumin/",
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5664031/",
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6204628/"
+        ],
+        "image_url": "https://raw.githubusercontent.com/FurkanSahinnn/supplement-dataset-turkish/refs/heads/main/image/Zerdeçal (Kurkumin).png"
+    },
+    {
+        "name": "Glutamin",
+        "category": "Amino Asit Takviyesi",
+        "primary_effects": [
+            "Kas yıkımını azaltabilir",
+            "Bağışıklık sistemini destekleyebilir",
+            "Bağırsak sağlığını koruyabilir"
+        ],
+        "fitness_use": "Glutamin, yoğun ve uzun süreli egzersizlerde kandaki düzeyi düşebilen bir amino asittir. Teorik olarak kas yıkımını azaltabileceği ve toparlanmayı hızlandırabileceği düşünülse de, sağlıklı bireylerde ve dengeli beslenen sporcularda bu etki çok belirgin değildir. Yine de aşırı antrenman yapan veya yarışma döneminde bağışıklık sistemi baskılanan sporcularda destekleyici olarak kullanılabilir.",
+        "health_use": "Bağırsak hücrelerinin birincil enerji kaynağıdır ve geçirgen bağırsak sendromu gibi durumlarda koruyucu rol oynayabilir. Ayrıca yoğun fiziksel stres, yanık, enfeksiyon veya cerrahi sonrası iyileşme döneminde vücut glutamin ihtiyacını artırır. Bağışıklık hücrelerinin enerji ihtiyacını da karşılayarak savunma sistemine katkı sağlar.",
+        "scientific_support": "Glutamin eksikliği ciddi fiziksel stres durumlarında belirgin hale gelir. Ancak takviye olarak alımının sağlıklı ve aktif bireylerde performans artışına etkisi sınırlı bulunmuştur. Klinik ortamlarda (hastane, iyileşme dönemi) daha çok kullanılır. Bağırsak sağlığı ve bağışıklık sistemi üzerindeki etkileri ise daha güçlü şekilde desteklenmektedir.",
+        "common_dosage": "Günlük 5-10 gram dozlar yaygındır. Egzersiz sonrası veya gece yatmadan önce alınabilir. Bağırsak sağlığı amacıyla sabah aç karnına kullanımı önerilebilir.",
+        "risks": "Genellikle güvenlidir. Aşırı dozda alındığında mide bulantısı, kramplar veya ishal görülebilir. Karaciğer hastalığı olan bireylerde dikkatli kullanılmalıdır. Epilepsi hastalarında nöbet riskini artırabileceği yönünde sınırlı kanıt vardır.",
+        "source_links": [
+            "https://examine.com/supplements/glutamine/",
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6266414/",
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5454963/"
+        ],
+        "image_url": "https://raw.githubusercontent.com/FurkanSahinnn/supplement-dataset-turkish/refs/heads/main/image/Glutamin.png"
+    },
+    {
+        "name": "C Vitamini",
+        "category": "Vitamin Takviyesi (Suda Çözünen)",
+        "primary_effects": [
+            "Bağışıklık sistemini destekler",
+            "Antioksidan koruma sağlar",
+            "Doku onarımı ve kolajen sentezine katkı sağlar"
+        ],
+        "fitness_use": "Yoğun antrenman dönemlerinde bağışıklık sistemi baskılanabilir ve sporcular enfeksiyonlara daha açık hale gelebilir. C vitamini, antioksidan etkisiyle serbest radikal hasarını azaltarak toparlanmaya katkı sağlayabilir. Ayrıca kolajen üretiminde görev aldığı için tendon ve bağ dokusu sağlığı açısından da önemlidir. Bununla birlikte yüksek doz C vitamini takviyesinin egzersiz adaptasyonlarını baskılayabileceği bazı çalışmalarda öne sürülmüştür.",
+        "health_use": "C vitamini, bağışıklık sisteminin normal çalışmasını destekler, yaraların iyileşmesini hızlandırır ve demirin bağırsaklardan emilimini artırır. Aynı zamanda hücreleri oksidatif strese karşı koruyan güçlü bir antioksidandır. Soğuk algınlığı süresini kısaltabileceği ve şiddetini azaltabileceği düşünülmektedir.",
+        "scientific_support": "C vitamini eksikliğinin bağışıklık fonksiyonlarında zayıflama ve yara iyileşmesinde gecikme gibi sonuçlara yol açtığı çok iyi belgelenmiştir. Takviye olarak alınması, yoğun fiziksel stres altındaki bireylerde (örneğin askerler, maraton koşucuları) enfeksiyon oranını düşürebilir. Ancak genel popülasyonda düzenli yüksek doz kullanımı her zaman fayda sağlamaz.",
+        "common_dosage": "Günlük önerilen alım miktarı 75–100 mg’dır, ancak bağışıklık desteği için 250–1000 mg arası dozlar sık kullanılır. Emilim açısından gün içine bölünerek alınması önerilir. 2000 mg üzeri dozlar genellikle tavsiye edilmez.",
+        "risks": "Yüksek dozlarda mide rahatsızlığı, ishal ve böbrek taşı riski görülebilir. C vitamini suda çözündüğü için fazlası idrarla atılır ancak uzun süreli aşırı dozda kullanımda dikkatli olunmalıdır.",
+        "source_links": [
+            "https://examine.com/supplements/vitamin-c/",
+            "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4488804/"
+        ],
+        "image_url": "https://raw.githubusercontent.com/FurkanSahinnn/supplement-dataset-turkish/refs/heads/main/image/C Vitamini.png"
+    },
+    {
+        "name": "K Vitamini",
+        "category": "Vitamin Takviyesi (Yağda Çözünen)",
+        "primary_effects": [
+            "Kan pıhtılaşmasında temel rol oynar",
+            "Kemik mineralizasyonunu destekleyebilir",
+            "Damar sağlığını koruyabilir (özellikle K2 formu)"
+        ],
+        "fitness_use": "Doğrudan performansa etkisi yoktur, ancak kemik sağlığını desteklemesi sayesinde özellikle ağırlık antrenmanı yapan bireylerde iskelet sistemi dayanıklılığı açısından dolaylı katkı sağlar. K2 vitamini, kalsiyumun kemiklere yönlendirilmesine yardımcı olarak damar kireçlenmesini önleyebilir; bu da uzun vadede dolaşım sistemi için olumlu sonuçlar yaratır.",
+        "health_use": "K1 vitamini kanın pıhtılaşması için gereklidir; yeşil yapraklı sebzelerde yaygın olarak bulunur. K2 vitamini ise kemik sağlığı ve kardiyovasküler sistem üzerinde etkilidir. Osteoporoz, arteriyel kalsifikasyon ve bazı kronik hastalıkların önlenmesinde destekleyici rol oynayabilir.",
+        "scientific_support": "K1’in kan pıhtılaşmasındaki rolü iyi bilinmektedir. K2 vitamini üzerine yapılan araştırmalar, osteokalsin aktivasyonu yoluyla kemik mineral yoğunluğunu artırabileceğini ve arter duvarlarında kalsiyum birikimini azaltabileceğini göstermektedir. Japonya’da K2, osteoporoz tedavisinde reçeteli olarak kullanılmaktadır.",
+        "common_dosage": "K1 için günlük ihtiyaç 90-120 mcg'dir. K2 (MK-7 formu) için takviye dozları genellikle 90-200 mcg aralığındadır. Emilim için yağlı öğünle alınması önerilir.",
+        "risks": "Genellikle güvenlidir. Kan sulandırıcı (warfarin gibi) ilaç kullanan bireylerde dikkatli olunmalı, doktor kontrolü olmadan yüksek doz alınmamalıdır. Alerjik reaksiyonlar nadirdir.",
+        "source_links": [
+            "https://examine.com/supplements/vitamin-k/",
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7230804/",
+            "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/"
+        ],
+        "image_url": "https://raw.githubusercontent.com/FurkanSahinnn/supplement-dataset-turkish/refs/heads/main/image/K Vitamini.png"
+    },
+    {
+        "name": "ZMA",
+        "category": "Kombinasyon Takviyesi (Çinko + Magnezyum + B6)",
+        "primary_effects": [
+            "Uyku kalitesini artırabilir",
+            "Kas toparlanmasına destek olabilir",
+            "Testosteron seviyelerini destekleyebilir (dolaylı olarak)"
+        ],
+        "fitness_use": "ZMA özellikle gece alınarak uyku kalitesini ve kas toparlanmasını desteklemeyi hedefler. İçeriğindeki çinko ve magnezyum, ağır antrenman dönemlerinde terle kaybedilen minerallerin yerine konulmasını sağlar. Ayrıca testosteron seviyeleri üzerinde dolaylı etkiler sunabileceği iddia edilmektedir. B6 vitamini, magnezyum emilimini destekler.",
+        "health_use": "ZMA, vücuttaki çinko ve magnezyum eksikliğini gidermeye yönelik kullanılabilir. Bu mineraller bağışıklık sistemi, sinir sistemi ve hormon üretimi üzerinde etkilidir. Özellikle çinko eksikliği olan bireylerde cilt sağlığı, bağışıklık gücü ve hormonal denge desteklenebilir.",
+        "scientific_support": "ZMA’nın popülaritesi 2000’lerde bir çalışmanın atletlerde testosteron seviyelerini artırdığı yönündeki iddiasıyla artmıştır. Ancak daha sonra yapılan bağımsız çalışmalar bu etkileri net biçimde doğrulamamıştır. Ancak içeriğindeki her bir bileşenin (çinko, magnezyum, B6) bireysel etkileri bilimsel olarak güçlü şekilde desteklenmektedir.",
+        "common_dosage": "Standart ZMA kapsülleri genellikle 30 mg çinko, 450 mg magnezyum ve 10 mg B6 vitamini içerir. Genellikle gece yatmadan 30-60 dakika önce aç karnına alınması önerilir. Kalsiyumla birlikte alınmamalıdır çünkü emilimi azaltabilir.",
+        "risks": "Yüksek dozda alım mide rahatsızlıkları, ishal veya uykululuk yapabilir. Uzun süreli yüksek çinko alımı bakır eksikliğine neden olabilir. Kan basıncını düşürebileceği için bazı bireylerde baş dönmesi yapabilir.",
+        "source_links": [
+            "https://examine.com/supplements/zma/",
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3751800/",
+            "https://jissn.biomedcentral.com/articles/10.1186/1550-2783-1-2-12"
+        ],
+        "image_url": "https://raw.githubusercontent.com/FurkanSahinnn/supplement-dataset-turkish/refs/heads/main/image/ZMA.png"
+    },
+    {
+        "name": "L-Karnitin",
+        "category": "Amino Asit Türevi / Yağ Metabolizması Destekleyici",
+        "primary_effects": [
+            "Yağ asitlerinin enerjiye dönüştürülmesine yardımcı olabilir",
+            "Egzersiz sonrası toparlanmayı hızlandırabilir",
+            "Kas yorgunluğunu azaltabilir"
+        ],
+        "fitness_use": "L-Karnitin, yağ asitlerinin mitokondriye taşınarak enerji üretimine katılmasını sağlayan bir bileşiktir. Teorik olarak yağ yakımını artırabileceği düşünülür. Ayrıca bazı çalışmalar, L-Karnitin takviyesinin egzersiz sonrası kas ağrısını azalttığını ve oksidatif stresi düşürdüğünü göstermektedir. Dayanıklılık sporlarında toparlanma ve performans açısından potansiyel fayda sağlayabilir.",
+        "health_use": "Kalp sağlığı, yaşa bağlı zihinsel performans düşüklüğü, sperm kalitesi ve tip 2 diyabet gibi konularda da incelenmiştir. Özellikle yaşlı bireylerde kas fonksiyonu ve enerji düzeylerini artırabileceği düşünülmektedir. L-karnitin eksikliği genellikle genetik hastalıklar veya kronik stresle ilişkilidir.",
+        "scientific_support": "Araştırmalar karışıktır. Yağ yakımına etkisi, yalnızca L-karnitin düzeyi düşük olan bireylerde anlamlı olabilir. Egzersiz sonrası toparlanma, kas ağrısı azaltımı ve oksidatif stres düşürme konularında bazı olumlu sonuçlar bildirilmiştir. Ancak performans artırıcı etkileri genel nüfusta sınırlı bulunmuştur.",
+        "common_dosage": "Günlük 1000–3000 mg arasında alınabilir. Yemekle birlikte alındığında emilim artar. En yaygın formu L-carnitine tartrate ve acetyl-L-carnitine’dir; ikisi farklı sistemlere (kas vs. beyin) odaklanır.",
+        "risks": "Genellikle güvenlidir. Yüksek dozlarda mide bulantısı, ishal veya vücut kokusunda değişiklik (balık kokusu) görülebilir. Nadir durumlarda epileptik nöbet riskini artırabileceği belirtilmiştir. Asetil-L-Karnitin formunun beyin üzerindeki etkileri nedeniyle bazı ilaçlarla etkileşim gösterebilir.",
+        "source_links": [
+            "https://examine.com/supplements/l-carnitine/",
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5986486/",
+            "https://ods.od.nih.gov/factsheets/Carnitine-HealthProfessional/"
+        ],
+        "image_url": "https://raw.githubusercontent.com/FurkanSahinnn/supplement-dataset-turkish/refs/heads/main/image/L-Karnitin.png"
+    },
+    {
+        "name": "Glukozamin",
+        "category": "Eklem Sağlığı Takviyesi / Amino Şeker",
+        "primary_effects": [
+            "Eklem ağrılarını hafifletebilir",
+            "Kıkırdak yapısını korumaya yardımcı olabilir",
+            "Eklem hareketliliğini destekleyebilir"
+        ],
+        "fitness_use": "Glukozamin, yüksek hacimli veya tekrarlı hareket içeren antrenman yapan sporcularda eklem sağlığını korumak ve ağrıyı azaltmak amacıyla kullanılır. Özellikle koşucular, ağırlık kaldıranlar ve yaşla birlikte eklem sorunu yaşayan sporcularda tercih edilir. Eklem sıvısının üretimini artırarak sürtünmeyi azaltabilir.",
+        "health_use": "Osteoartrit (kireçlenme) gibi eklem rahatsızlıklarında en sık önerilen takviyelerden biridir. Glukozamin, kıkırdak dokusunun yapı taşlarından biridir ve uzun vadede eklem yapısının korunmasına katkı sağladığı düşünülmektedir. Özellikle diz ve kalça eklem ağrılarında kullanılır.",
+        "scientific_support": "Glukozamin üzerine yapılan çalışmaların sonuçları karışıktır. Bazı araştırmalar osteoartrit kaynaklı ağrıyı hafiflettiğini gösterirken, bazıları plaseboya karşı belirgin bir üstünlük saptamamıştır. Bununla birlikte uzun dönem kullanımlarda bazı hastalarda eklem fonksiyonlarında iyileşme görülmüştür.",
+        "common_dosage": "Günlük yaygın doz 1500 mg’dır. Glukozamin sülfat formu en sık kullanılan ve çalışmalarda test edilen formdur. Genellikle sabah veya yemekle birlikte alınır.",
+        "risks": "Genellikle güvenlidir. Mide rahatsızlığı, gaz veya yumuşak dışkı gibi hafif yan etkiler yapabilir. Kabuklu deniz ürünlerinden elde edilen formlar alerji riski taşıyabilir. Kan şekeri kontrolü gereken bireyler dikkatli kullanmalıdır.",
+        "source_links": [
+            "https://examine.com/supplements/glucosamine/",
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763768/",
+            "https://www.arthritis.org/health-wellness/treatment/complementary-therapies/supplements-and-herbs/glucosamine-and-chondroitin-for-arthritis"
+        ],
+        "image_url": "https://raw.githubusercontent.com/FurkanSahinnn/supplement-dataset-turkish/refs/heads/main/image/Glukozamin.png"
+    },
+    {
+        "name": "Kollajen",
+        "category": "Yapısal Protein Takviyesi / Deri, Eklem ve Bağ Dokusu Destekleyici",
+        "primary_effects": [
+            "Cilt elastikiyetini ve nem dengesini artırabilir",
+            "Eklem sağlığını ve hareketliliği destekleyebilir",
+            "Kas, tendon ve bağ dokularının dayanıklılığını artırabilir"
+        ],
+        "fitness_use": "Kollajen takviyesi, tendon ve bağ dokularının yenilenmesini destekleyerek sakatlık riskini azaltmaya ve egzersiz sonrası toparlanmayı iyileştirmeye yardımcı olabilir. Bazı çalışmalar, tip I ve tip III kollajen içeren takviyelerin düzenli kullanımıyla bağ dokusu onarımının hızlandığını ve eklem ağrısının azaldığını göstermektedir. Özellikle yaşa bağlı doku zayıflığı yaşayan sporcular için faydalı olabilir.",
+        "health_use": "Kollajen, vücudun bağ dokularında en bol bulunan proteindir. Yaşla birlikte üretimi azalır ve bu durum cilt kırışıklıkları, eklem sertliği ve kas kütlesinde azalma gibi etkilerle kendini gösterir. Takviye formunda alınan hidrolize kollajen, cilt elastikiyetini ve nemini artırabilir, tırnak ve saç sağlığını destekleyebilir. Osteoartrit gibi eklem rahatsızlıklarında da olumlu etkileri rapor edilmiştir.",
+        "scientific_support": "Çeşitli randomize kontrollü çalışmalarda, kollajen peptitlerinin düzenli kullanımı ile hem cilt hem de eklem sağlığı üzerinde iyileşmeler gözlemlenmiştir. Ayrıca sporcularda tendon esnekliği, eklem ağrısında azalma ve toparlanma sürecinde hızlanma gibi faydalar rapor edilmiştir. Tip I ve tip II kollajen farklı dokular üzerinde etkilidir (Tip II: eklem, Tip I: cilt ve tendon).",
+        "common_dosage": "Günlük 5–10 gram hidrolize kollajen önerilir. En iyi emilim için C vitamini ile birlikte alınması tavsiye edilir. Aç karnına ya da kahvaltı öncesi kullanılabilir. Tip II kollajen için doz genellikle 40 mg civarındadır.",
+        "risks": "Genellikle çok iyi tolere edilir. Nadir olarak mide rahatsızlığı, ağızda kötü tat veya hafif hazımsızlık görülebilir. Balık veya hayvansal kaynaklı kollajen içeren ürünlerde alerji riski olabilir.",
+        "source_links": [
+            "https://examine.com/supplements/collagen/",
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6835901/",
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7733153/"
+        ],
+        "image_url": "https://raw.githubusercontent.com/FurkanSahinnn/supplement-dataset-turkish/refs/heads/main/image/Kollajen.png"
+    },
+    {
+        "name": "CLA (Konjuge Linoleik Asit)",
+        "category": "Yağ Asidi Takviyesi / Vücut Kompozisyonu Destekleyici",
+        "primary_effects": [
+            "Vücut yağ oranını azaltmaya yardımcı olabilir",
+            "Yağsız kas kütlesini koruyabilir",
+            "Antioksidan ve anti-inflamatuar etkilere sahip olabilir"
+        ],
+        "fitness_use": "CLA genellikle yağ yakımını desteklemek amacıyla kullanılır. Bazı araştırmalar, CLA'nın yağ hücrelerinde lipoliz (yağ yıkımı) ve yağ oksidasyonu gibi süreçleri uyararak vücut kompozisyonunu iyileştirebileceğini öne sürmektedir. Diyet ve egzersizle birlikte kullanıldığında yağsız kas kütlesini koruyarak kilo kaybında destekleyici rol oynayabilir.",
+        "health_use": "CLA’nın antioksidan özellikleri sayesinde bağışıklık sistemini destekleyebileceği, insülin hassasiyetini iyileştirebileceği ve bazı kardiyovasküler risk faktörlerini azaltabileceği düşünülmektedir. Ayrıca hayvan çalışmalarında kanser hücrelerinin büyümesini baskılayabileceğine dair bulgular elde edilmiştir; ancak insanlardaki etkiler hâlâ tartışmalıdır.",
+        "scientific_support": "İnsanlarda CLA kullanımı üzerine yapılan çalışmaların sonuçları karışıktır. Bazı araştırmalar, CLA’nın vücut yağını azaltabildiğini ve yağsız kas kütlesini koruyabildiğini göstermiştir. Ancak bu etkiler genellikle sınırlı düzeydedir ve uzun vadeli güvenliğiyle ilgili bazı soru işaretleri bulunmaktadır. Özellikle diyabetik bireylerde insülin duyarlılığına olumsuz etkiler bildirilmiştir.",
+        "common_dosage": "Günlük önerilen doz 3–6 gramdır. Yiyeceklerle birlikte alınması tavsiye edilir. En yaygın formu 50:50 oranında c9,t11 ve t10,c12 izomerleri içeren karışımdır.",
+        "risks": "Bazı çalışmalarda CLA'nın insülin duyarlılığını olumsuz etkileyebileceği, karaciğer yağlanması riskini artırabileceği ve uzun süreli yüksek doz kullanımında inflamatuar etkilere yol açabileceği gösterilmiştir. Bu nedenle metabolik sendrom veya diyabeti olan bireylerin dikkatli olması önerilir.",
+        "source_links": [
+            "https://examine.com/supplements/conjugated-linoleic-acid/",
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3704564/",
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2873124/"
+        ],
+        "image_url": "https://raw.githubusercontent.com/FurkanSahinnn/supplement-dataset-turkish/refs/heads/main/image/CLA (Konjuge Linoleik Asit).png"
+    }
+]

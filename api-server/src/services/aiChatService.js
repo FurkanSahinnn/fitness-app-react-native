@@ -56,6 +56,22 @@ class AIChatService {
       throw new Error('Sohbet geçmişi alınamadı');
     }
   }
+
+  async clearChatHistory(userId) {
+    try {
+      const query = `
+        DELETE FROM ai_chats
+        WHERE user_id = $1
+        RETURNING *
+      `;
+      const values = [userId];
+      const result = await db.query(query, values);
+      return { success: true, count: result.rowCount };
+    } catch (error) {
+      console.error('Sohbet geçmişi temizlenirken hata:', error);
+      throw new Error('Sohbet geçmişi temizlenemedi');
+    }
+  }
 }
 
 export default new AIChatService(); 

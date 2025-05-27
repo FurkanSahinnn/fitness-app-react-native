@@ -1,5 +1,6 @@
 import axiosClient from './axios-client';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { exerciseApi } from './exercise-api';
 
 // API istekleri için fonksiyonlar
 export const apis = {
@@ -46,7 +47,13 @@ export const apis = {
     axiosClient.post('/aichat', { message }),
   
   getAIChatHistory: () => 
-    axiosClient.get('/aichat/history')
+    axiosClient.get('/aichat/history'),
+    
+  clearAIChatHistory: () =>
+    axiosClient.delete('/aichat/clear'),
+
+  // Exercise API'leri
+  ...exerciseApi
 };
 
 export default apis; 

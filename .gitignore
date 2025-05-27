@@ -52,3 +52,9 @@ temp/
 
 # System files
 Thumbs.db 
+
+# Cursor
+.cursor/
+.cursorrules
+
+

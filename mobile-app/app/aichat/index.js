@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
-import { View, Text, SafeAreaView, FlatList, ActivityIndicator } from 'react-native';
+import { View, Text, SafeAreaView, FlatList, ActivityIndicator, TouchableOpacity, Alert } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
+import { Ionicons } from '@expo/vector-icons';
 import ChatBubble from '../../components/chat/ChatBubble';
 import ChatInput from '../../components/chat/ChatInput';
 import apis from '../../services/apis';
@@ -19,24 +20,34 @@ const AIChatScreen = () => {
   const loadChatHistory = async () => {
     try {
       const response = await apis.getAIChatHistory();
-      // Response içindeki verileri uygun formata dönüştür
-      if (response.data && response.data.data) {
-        const formattedMessages = response.data.data.map(chat => ([
-          {
-            id: `${chat.id}-user`,
-            text: chat.message,
-            isUser: true,
-            timestamp: chat.created_at
-          },
-          {
-            id: `${chat.id}-ai`,
-            text: chat.response,
-            isUser: false,
-            timestamp: chat.created_at
-          }
-        ])).flat();
+      
+      if (response.data && response.data.data && Array.isArray(response.data.data)) {
+        const messagesArray = [];
         
-        setMessages(formattedMessages.reverse());
+        // Yeni API formatına göre verileri işle
+        response.data.data.forEach(item => {
+          if (item.user_message) {
+            messagesArray.push({
+              id: item.user_message.id,
+              text: item.user_message.content,
+              isUser: true,
+              timestamp: item.user_message.created_at
+            });
+          }
+          
+          if (item.ai_response) {
+            messagesArray.push({
+              id: item.ai_response.id,
+              text: item.ai_response.content,
+              isUser: false, 
+              timestamp: item.ai_response.created_at
+            });
+          }
+        });
+        
+        // Konuşma tarihine göre sırala (en son mesajlar altta)
+        messagesArray.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
+        setMessages(messagesArray);
       }
     } catch (error) {
       console.error('Sohbet geçmişi yüklenirken hata:', error);
@@ -46,38 +57,74 @@ const AIChatScreen = () => {
   };
 
   const handleSendMessage = async (text) => {
-    // Kullanıcı mesajını ekle
+    if (!text.trim()) return;
+    
+    // Benzersiz bir geçici ID oluştur
+    const tempId = Date.now().toString();
+    
+    // Kullanıcı mesajını ekle (geçici ID ile)
     const userMessage = {
-      id: Date.now().toString(),
-      text,
+      id: `temp-${tempId}-user`,
+      text: text,
       isUser: true,
       timestamp: new Date().toISOString()
     };
     
+    // Kullanıcı mesajını listeye ekle
     setMessages(prevMessages => [...prevMessages, userMessage]);
     
-    // API isteği başlat
+    // Otomatik kaydır
+    setTimeout(() => {
+      if (flatListRef.current) {
+        flatListRef.current.scrollToEnd({ animated: true });
+      }
+    }, 100);
+    
+    // AI yanıtını al
     setLoading(true);
     
     try {
       const response = await apis.sendAIMessage(text);
       
       if (response.data && response.data.data) {
-        // AI yanıtını ekle
-        const aiMessage = {
-          id: `${response.data.data.id}-ai`,
-          text: response.data.data.response,
-          isUser: false,
-          timestamp: response.data.data.created_at
-        };
+        const { data } = response.data;
         
-        setMessages(prevMessages => [...prevMessages, aiMessage]);
+        // Kullanıcı mesajını güncelle (geçici ID yerine gerçek ID kullan)
+        setMessages(prevMessages => prevMessages.map(msg => 
+          msg.id === `temp-${tempId}-user` 
+            ? {
+                id: data.user_message.id,
+                text: data.user_message.content,
+                isUser: true,
+                timestamp: data.user_message.created_at
+              }
+            : msg
+        ));
+        
+        // AI yanıtını ekle
+        setMessages(prevMessages => [
+          ...prevMessages, 
+          {
+            id: data.ai_response.id,
+            text: data.ai_response.content,
+            isUser: false,
+            timestamp: data.ai_response.created_at
+          }
+        ]);
+        
+        // Otomatik kaydır
+        setTimeout(() => {
+          if (flatListRef.current) {
+            flatListRef.current.scrollToEnd({ animated: true });
+          }
+        }, 100);
       }
     } catch (error) {
       console.error('AI mesajı gönderilirken hata:', error);
+      
       // Hata mesajını ekle
       const errorMessage = {
-        id: `error-${Date.now()}`,
+        id: `error-${tempId}`,
         text: 'Mesaj gönderilemedi. Lütfen tekrar deneyin.',
         isUser: false,
         timestamp: new Date().toISOString()
@@ -89,18 +136,48 @@ const AIChatScreen = () => {
     }
   };
 
-  // Mesaj listesi görünümünü otomatik olarak en sona kaydır
-  useEffect(() => {
-    if (messages.length > 0 && flatListRef.current) {
-      flatListRef.current.scrollToEnd({ animated: true });
-    }
-  }, [messages]);
+  // Sohbet geçmişini temizleme
+  const handleClearChat = () => {
+    Alert.alert(
+      'Sohbet Geçmişini Temizle',
+      'Tüm sohbet geçmişiniz silinecek. Devam etmek istiyor musunuz?',
+      [
+        {
+          text: 'İptal',
+          style: 'cancel'
+        },
+        {
+          text: 'Temizle',
+          style: 'destructive',
+          onPress: async () => {
+            try {
+              await apis.clearAIChatHistory();
+              setMessages([]);
+              Alert.alert('Başarılı', 'Sohbet geçmişiniz temizlendi.');
+            } catch (error) {
+              console.error('Sohbet temizlenirken hata:', error);
+              Alert.alert('Hata', 'Sohbet geçmişi temizlenemedi.');
+            }
+          }
+        }
+      ]
+    );
+  };
 
   return (
     <SafeAreaView className="flex-1 bg-neutral-950">
       <StatusBar style="light" />
-      <View className="flex-row items-center justify-center p-4 border-b border-gray-800">
-        <Text className="text-white text-xl font-bold">AI Chat</Text>
+      <View className="flex-row items-center justify-between p-4 border-b border-gray-800">
+        <View className="flex-1"/>
+        <Text className="text-white text-xl font-bold flex-1 text-center">AI Chat</Text>
+        <View className="flex-1 items-end">
+          <TouchableOpacity 
+            onPress={handleClearChat}
+            className="w-10 h-10 items-center justify-center rounded-full"
+          >
+            <Ionicons name="trash-outline" size={24} color="#e74c3c" />
+          </TouchableOpacity>
+        </View>
       </View>
       
       {initialLoading ? (

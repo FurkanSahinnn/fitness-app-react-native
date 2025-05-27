@@ -1,5 +1,22 @@
 npm run dev --> back
+
 npm start --> front
+npx expo start --clear --> temiz baslatma front
+
+Container'lar otomatik olarak oluşturulacak ve hemen başlatılacak.
+Hem yeniden oluşturup hem başlatmak için (özellikle bağımlılık veya .env değiştiyse):
+docker-compose up --build => 
+
+Bu şekilde container'lar arka planda (detached mode) çalışır:
+docker-compose up --build -d
+
+Sadece başlatmak için:
+docker-compose up
+
+Note:
+Sadece küçük kod değişiklikleri yaptıysan ve bağımlılıklarda değişiklik yoksa, çoğu zaman docker-compose up yeterlidir 
+(çünkü volume mount ile kodun zaten container içinde güncellenir). Ama yeni bir dosya eklediysen, bağımlılık eklediysen 
+veya .env dosyasında değişiklik yaptıysan her zaman docker-compose up --build kullanmak en sağlıklısıdır.
 
 Login:
 test123@example.com

@@ -13,4 +13,7 @@ router.post('/aichat', aiChatController.createChat);
 // Sohbet geçmişini getir
 router.get('/aichat/history', aiChatController.getChatHistory);
 
+// Sohbet geçmişini temizle
+router.delete('/aichat/clear', aiChatController.clearChatHistory);
+
 export default router; 
