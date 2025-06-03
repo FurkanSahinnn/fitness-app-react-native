@@ -1,39 +1,23 @@
+import axiosClient from './axios-client';
 import { RAPID_URL, X_RAPIDAPI_HOST, X_RAPIDAPI_KEY } from '@env';
 
-// Exercise DB API yapılandırması - fetch kullanarak dokümantasyon örneğine uygun
+// Exercise DB API yapılandırması - axios kullanarak
 
-const fetchWithOptions = async (endpoint) => {
-  const url = `${RAPID_URL}${endpoint}`;
-  
-  console.log('Fetch Request:', {
-    url,
-    headers: {
-      'x-rapidapi-key': X_RAPIDAPI_KEY,
-      'x-rapidapi-host': X_RAPIDAPI_HOST
-    }
-  });
+const exerciseAxiosClient = axiosClient.create({
+  baseURL: RAPID_URL,
+  headers: {
+    'x-rapidapi-key': X_RAPIDAPI_KEY,
+    'x-rapidapi-host': X_RAPIDAPI_HOST
+  }
+});
 
+const fetchWithAxios = async (endpoint) => {
   try {
-    const response = await fetch(url, {
-      method: 'GET',
-      headers: {
-        'x-rapidapi-key': X_RAPIDAPI_KEY,
-        'x-rapidapi-host': X_RAPIDAPI_HOST
-      }
-    });
-
-    console.log('Fetch Response Status:', response.status);
+    const response = await exerciseAxiosClient.get(endpoint);
     
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-
-    const data = await response.json();
-    console.log('Fetch Response Data:', data);
-    
-    return { data };
+    return response.data;
   } catch (error) {
-    console.error('Fetch Error:', error);
+    console.error('Axios Error:', error.response ? error.response : error.message);
     throw error;
   }
 };
@@ -41,15 +25,18 @@ const fetchWithOptions = async (endpoint) => {
 export const exerciseApi = {
   // Vücut bölgesi listesini getirir
   getBodyPartList: () => 
-    fetchWithOptions('/exercises/bodyPartList'),
+    fetchWithAxios('/exercises/bodyPartList'),
   
   // Belirli bir vücut bölgesi için egzersizleri getirir
-  getExercisesByBodyPart: (bodyPart) => 
-    fetchWithOptions(`/exercises/bodyPart/${bodyPart}`),
+  getExercisesByBodyPart: (bodyPart) => {
+    // Shoulder için özel mapping
+    const apiBodyPart = bodyPart === 'shoulder' ? 'shoulders' : bodyPart;
+    return fetchWithAxios(`/exercises/bodyPart/${apiBodyPart}`);
+  },
   
   // Egzersiz detayını getirir
   getExerciseById: (id) => 
-    fetchWithOptions(`/exercises/exercise/${id}`),
+    fetchWithAxios(`/exercises/exercise/${id}`),
 };
 
 export default exerciseApi; 

@@ -13,6 +13,7 @@ import { StatusBar } from 'expo-status-bar';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import { Ionicons } from '@expo/vector-icons';
 import { exerciseApi } from '../../../../services/apis/exercise-api';
+import TopTabNavigator from '../../../../components/navigation/TopTabNavigator';
 
 const ExerciseListScreen = () => {
   const navigation = useNavigation();
@@ -27,13 +28,14 @@ const ExerciseListScreen = () => {
     try {
       setLoading(true);
       const response = await exerciseApi.getExercisesByBodyPart(bodyPart);
-      setExercises(response.data);
+      setExercises(response || []); // response.data yerine response kullan ve fallback ekle
     } catch (error) {
       console.error('Egzersizler getirilirken hata:', error);
       Alert.alert(
         'Hata', 
         'Egzersizler yüklenirken bir hata oluştu. Lütfen daha sonra tekrar deneyin.'
       );
+      setExercises([]); // Hata durumunda boş array set et
     } finally {
       setLoading(false);
     }
@@ -100,28 +102,16 @@ const ExerciseListScreen = () => {
     <SafeAreaView className="flex-1 bg-neutral-950">
       <StatusBar style="light" />
       
-      {/* Header */}
-      <View className="bg-neutral-900 px-4 py-3">
-        <TouchableOpacity 
-          onPress={() => navigation.goBack()}
-          className="p-1 w-10"
-        >
-          <Ionicons name="arrow-back" size={24} color="#fff" />
-        </TouchableOpacity>
-      </View>
+      <TopTabNavigator title={`${bodyPart.replace('_', ' ')} Egzersizleri`} />
       
       {/* Content */}
       <View className="flex-1 p-4">
-        <Text className="text-white text-3xl font-bold text-center mb-2 capitalize">
-          {bodyPart.replace('_', ' ')} Egzersizleri
-        </Text>
-        
         <Text className="text-gray-400 text-center mb-6">
-          {exercises.length} egzersiz bulundu
+          {exercises?.length || 0} egzersiz bulundu
         </Text>
         
         <FlatList
-          data={exercises}
+          data={exercises || []}
           keyExtractor={(item) => item.id}
           renderItem={({ item }) => <ExerciseCard item={item} />}
           showsVerticalScrollIndicator={false}

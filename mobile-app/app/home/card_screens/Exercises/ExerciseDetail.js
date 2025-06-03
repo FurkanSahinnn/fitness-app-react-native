@@ -10,6 +10,7 @@ import {
 import { StatusBar } from 'expo-status-bar';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import { Ionicons } from '@expo/vector-icons';
+import TopTabNavigator from '../../../../components/navigation/TopTabNavigator';
 
 const ExerciseDetailScreen = () => {
   const navigation = useNavigation();
@@ -20,24 +21,11 @@ const ExerciseDetailScreen = () => {
     <SafeAreaView className="flex-1 bg-neutral-950">
       <StatusBar style="light" />
       
-      {/* Header */}
-      <View className="bg-neutral-900 px-4 py-3">
-        <TouchableOpacity 
-          onPress={() => navigation.goBack()}
-          className="p-1 w-10"
-        >
-          <Ionicons name="arrow-back" size={24} color="#fff" />
-        </TouchableOpacity>
-      </View>
+      <TopTabNavigator title={exercise.name} />
       
       {/* Content */}
-      <ScrollView className="flex-1" showsVerticalScrollIndicator={false}>
+      <ScrollView className="flex-1">
         <View className="p-6">
-          {/* Egzersiz İsmi */}
-          <Text className="text-white text-3xl font-bold text-center mb-6 capitalize">
-            {exercise.name}
-          </Text>
-          
           {/* GIF Animasyonu */}
           <View className="items-center mb-6">
             <Image 
