@@ -1,5 +1,5 @@
 import axiosClient from './axios-client';
-import { RAPID_URL, X_RAPIDAPI_HOST, X_RAPIDAPI_KEY } from '@env';
+import { RAPID_URL, X_RAPIDAPI_KEY } from '@env';
 
 // Exercise DB API yapılandırması - axios kullanarak
 
@@ -7,7 +7,7 @@ const exerciseAxiosClient = axiosClient.create({
   baseURL: RAPID_URL,
   headers: {
     'x-rapidapi-key': X_RAPIDAPI_KEY,
-    'x-rapidapi-host': X_RAPIDAPI_HOST
+    'x-rapidapi-host': 'exercisedb.p.rapidapi.com'
   }
 });
 
