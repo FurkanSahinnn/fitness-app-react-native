@@ -1,6 +1,8 @@
 import axiosClient from './axios-client';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { exerciseApi } from './exercise-api';
+import { nutritionixApi } from './nutritionix-api';
+import { spoonacularApi } from './spoonacular-api';
 
 // API istekleri için fonksiyonlar
 export const apis = {
@@ -53,7 +55,13 @@ export const apis = {
     axiosClient.delete('/aichat/clear'),
 
   // Exercise API'leri
-  ...exerciseApi
+  ...exerciseApi,
+
+  // Nutritionix API'leri
+  ...nutritionixApi,
+
+  // Spoonacular API'leri
+  ...spoonacularApi
 };
 
 export default apis; 
