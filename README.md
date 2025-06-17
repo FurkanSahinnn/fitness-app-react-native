@@ -6,14 +6,7 @@
 
 ## 📱 **HAZIR APK DOSYASI**
 
-🎯 **En önemli bilgi:** Uygulamanın hazır APK dosyası `apk-file/` klasöründe bulunmaktadır!
-
-- **Dosya:** `apk-file/application-7e52c926-1241-40ee-8fa5-f2b606156109.apk`
-
-### APK Kurulumu:
-1. `apk-file/` klasöründen APK dosyasını Android cihazınıza kopyalayın
-2. Android cihazınızda "Bilinmeyen kaynaklar" seçeneğini etkinleştirin
-3. APK dosyasına tıklayıp kurulumu tamamlayın
+🎯 **En önemli bilgi:** Uygulamanın hazır APK dosyası 141 mb olduğu için https://drive.google.com/drive/folders/1DzrvqNyudmqjdm0LGNgEDiQMLVpZ-Mpp?usp=sharing linkine yüklenmiştir.
 
 ---
 
@@ -180,7 +173,6 @@ npx expo start
 ### 📁 **Proje Yapısı:**
 ```
 fitness-app-react-native/
-├── apk-file/                    # 📱 Hazır APK dosyası
 ├── database-schema/             # 🗄️ PostgreSQL şema dosyası
 ├── api-server/                  # 🛠️ Node.js Backend
 │   ├── src/
