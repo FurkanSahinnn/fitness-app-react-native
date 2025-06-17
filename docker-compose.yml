@@ -1,6 +1,20 @@
 version: '3.9'
 
 services:
+  postgres:
+    image: postgres:17
+    container_name: postgres-db
+    environment:
+      POSTGRES_DB: fitness_app
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres123
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database-schema/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+    restart: unless-stopped
+
   api-server:
     build:
       context: ./api-server
@@ -9,9 +23,11 @@ services:
       - "3000:3000"
     volumes:
       - ./api-server:/usr/src/app
+      - ./api-server/.env:/usr/src/app/.env
     environment:
       - NODE_ENV=development
-      # Buraya .env dosyasındaki değişkenleri ekleyebilirsin veya .env dosyasını mount edebilirsin
+    depends_on:
+      - postgres
     command: ["npx", "nodemon", "src/index.js"]
     restart: unless-stopped
 
@@ -25,9 +41,13 @@ services:
       - "19002:19002"   # Web arayüzü
     volumes:
       - ./mobile-app:/usr/src/app
+      - ./mobile-app/.env:/usr/src/app/.env
     environment:
       - NODE_ENV=development
     depends_on:
       - api-server
     command: ["npx", "expo", "start", "--tunnel", "--clear"]
-    restart: unless-stopped 
+    restart: unless-stopped
+
+volumes:
+  postgres_data: 

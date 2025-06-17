@@ -15,6 +15,8 @@ import SupplementInfoScreen from './app/home/card_screens/SupplementScreens/Supp
 import SupplementDetail from './app/home/card_screens/SupplementScreens/SupplementDetail';
 import HealthyRecipesScreen from './app/home/card_screens/HealthyRecipes';
 import NutritionalValuesScreen from './app/home/card_screens/NutritionalValues';
+import FoodDetailScreen from './app/home/card_screens/FoodDetailScreen';
+import RecipeDetailScreen from './app/home/card_screens/RecipeDetailScreen';
 import "./global.css";
 import 'react-native-gesture-handler';
 
@@ -44,6 +46,8 @@ export default function App() {
             <Stack.Screen name="SupplementDetail" component={SupplementDetail} />
             <Stack.Screen name="HealthyRecipes" component={HealthyRecipesScreen} />
             <Stack.Screen name="NutritionalValues" component={NutritionalValuesScreen} />
+            <Stack.Screen name="FoodDetailScreen" component={FoodDetailScreen} />
+            <Stack.Screen name="RecipeDetailScreen" component={RecipeDetailScreen} />
           </Stack.Navigator>
         </NavigationContainer>
       </AuthProvider>
