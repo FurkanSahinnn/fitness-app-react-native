@@ -8,7 +8,7 @@
 
 🎯 **En önemli bilgi:** Uygulamanın hazır APK dosyası 141 mb olduğu için Google Drive'a yüklenmiştir.
 
-**Link:** https://drive.google.com/drive/folders/1DzrvqNyudmqjdm0LGNgEDiQMLVpZ-Mpp?usp=sharing linkine
+**Link:** https://drive.google.com/drive/folders/1DzrvqNyudmqjdm0LGNgEDiQMLVpZ-Mpp?usp=sharing
 ---
 
 ## 🗄️ **VERİTABANI ŞEMASI**
